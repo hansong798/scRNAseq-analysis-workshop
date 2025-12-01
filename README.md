@@ -43,6 +43,7 @@ if (!requireNamespace("remotes", quietly = TRUE)) {
 remotes::install_version("SeuratObject", "4.1.4", dependencies = T)   # ~15min
 remotes::install_version("Seurat", "4.4.0", upgrade = FALSE)          # ~15min
 #  remotes::install_version("rlang", "1.1.4")
+#  remotes::install_version("ggplot2", "3.5.2")
 install.packages('ggplot2')
 install.packages("dplyr")
 ```
